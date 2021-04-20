@@ -44,7 +44,7 @@ server.on('request', (req, res) => {
                     "mid": PaytmConfig.PaytmConfig.mid,
                     "websiteName": PaytmConfig.PaytmConfig.website,
                     "orderId": orderId,
-                    "callbackUrl": "http://localhost:3000/callback",
+                    "callbackUrl": "https://shubhamxb.github.io//callback",
                     "txnAmount": {
                         "value": data.amount,
                         "currency": "INR",
