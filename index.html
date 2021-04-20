@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <title>CoviHelp</title>
+  <style>
+    body {
+      background-color: rgb(234, 232, 235);
+      font-family: Nunito, sans-serif;
+      -webkit-user-select: none;
+      -moz-user-select: -moz-none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin: 0;
+    }
+
+    footer {
+      bottom: 0;
+      text-align: center;
+      background: #6f42c1;
+      color: white;
+      padding: 15px;
+      width: 100%;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .hero-v1 {
+  padding: 8rem 0 8rem 0;
+  border-bottom-right-radius: 50%;
+  background: rgba(111, 66, 193, 0.1);
+  overflow: hidden; }
+  .hero-v1 .heading {
+    font-weight: 900;
+    color: #6f42c1;
+    font-size: 40px; }
+    @media (max-width: 991.98px) {
+      .hero-v1 .heading {
+        font-size: 30px; } }
+  .hero-v1 .subheading {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(111, 66, 193, 0.5);
+    letter-spacing: .1rem;
+    font-weight: 900; }
+  .hero-v1 .illustration {
+    position: relative;
+    margin-top: -100px;
+    position: absolute; }
+  .hero-v1 .illustration-2 {
+    position: relative;
+    margin-top: -200px;
+    position: absolute; }
+
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-light" style="background: #e1d8f0;">
+    <a class="navbar-brand" href="/">CoviHelp</a>
+    </dv>
+  </nav>
+
+  <div class="hero-v1">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 mr-auto text-center text-lg-left">
+          <span class="d-block subheading">Covid-19 Donations</span>
+          <h1 class="heading mb-3">Stay Home. Help Others.</h1>
+          <p class="mb-5">The World Health Organization (WHO) is leading and coordinating the global effort, supporting countries to prevent, detect, and respond to the pandemic.
+            Everyone can now support directly the response coordinated by WHO. People and organizations who want to help fight the pandemic and support WHO and partners can now donate through the COVID-Solidarity Response Fund for WHO.</p>
+          <p class="mb-4"><a href="#form-main" class="btn" style="background-color: #5625b3; color:#FFF;">Donate Now!</a></p>
+
+
+
+        </div>
+        <div class="col-lg-6">
+            <img src="https://www.ibrasiagroup.com/wp-content/uploads/2020/08/3622115-01-1024x683.png" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-lg-6"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div style="width: 400px; height: 500px; margin: auto;" class="card mt-5" id = "form-main">
+    <div class="card-body">
+      <form class="" action="/paynow" method="post">
+        <div class="form-group">
+          <label for="">Name: </label>
+          <input class="form-control" type="text" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="">Email: </label>
+          <input class="form-control" type="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="">Phone: </label>
+          <input class="form-control" type="number" name="phone" required>
+        </div>
+          <div class="form-group">
+          <label for="">Amount: </label>
+          <input class="form-control" type="number" name="amount" required>
+        </div>
+        <label for=""></label>
+        <div class="form-group mt-4">
+          <center>
+            <button class="btn" style="width: 180px; background-color: #580be6; color: #FFF;">Pay Now</button>
+          </center>
+        </div>
+      </form>
+    </div>
+  </div>
+  <center>
+  <p style="color: gray;">This is a test transaction, no amount will be deducted.</p>
+</center>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="footer mt-5">
+      <div>
+        Made by 
+        <a href=" https://shubhamxb.github.io" target="_blank"><strong>Shubham Bhagwat</strong></a>
+      For
+      <a href="https://www.thesparksfoundationsingapore.org/" target="_blank" ><strong>TSF</strong></a>
+  </div>
+  </footer>
+
+
+  </body>
+
+</html>
