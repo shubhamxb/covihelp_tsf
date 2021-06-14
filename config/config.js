@@ -1,7 +1,7 @@
 var PaytmConfig = {
-    mid: "xMgmlm27845835803493",
-    key: "wwgqrYc4UGHHCCT!",
-    website: "WEBSTAGING"
+    mid: "XXXXXXXXXXXXXXXXXXXX",
+    key: "XXXXXXXXXXXXXXXX",
+    website: "XXXXXXXXXX"
 }
 
 module.exports.PaytmConfig = PaytmConfig
